@@ -31,7 +31,7 @@ void resizeUp_vector(Vector* mas, unsigned int size) {
     for (int i = 0; i < mas->size; ++i) {
         mas->array[i] = tmp[i];
     }
-
+    mas->size++;
     delete[] tmp;
 }
 int main()
