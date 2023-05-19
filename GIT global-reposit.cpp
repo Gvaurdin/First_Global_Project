@@ -34,7 +34,9 @@ void resizeUp_vector(Vector* mas, unsigned int size) {
     mas->size++;
     delete[] tmp;
 }
+
 int main()
 {
     Vector mas = init_vector(4);
+    cout << " End\n";
 }
